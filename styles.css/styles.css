@@ -20,7 +20,6 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-
 p {
     padding: 10px;
 }
@@ -38,12 +37,10 @@ aside {
     color: #330;
     text-align: center;
 }
-
 aside img {
     width: 200px;
     height: auto;
 }
-
 main img {
     width: 150px;
     height: auto;
