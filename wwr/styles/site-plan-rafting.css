@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+body {
+    font-family: var(Reddit sans);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #EDF6F9;
+    --secondary-color: #83C5BE;
+    --accent1-color: #E29578;
+    --accent2-colot: #006D77;
+
+    --heading-font: "Lora", serif;
+    --paragraph-font: "Reddit Sans", serif;
+
+    --nav-backgrounf-color: #EDF6F9;
+    --nav-link-color: #83C5BE;
+    --nav-hover-link-color: #E29578;
+    --nav-hover-link-color: #83C5BE;
+}
+
+body {
+    font-family: var(Sans Serif);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(lora);
+    color: (#006D77);
+
+}
+
+header {
+    padding: 20px;
+    background-color: var(#EDF6F9);
+
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(#EDF6F9);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(#E29578);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(#E29578);
+} 
+
+nav a:hover {
+    color: var(#E29578);
+    background-color: var(#EDF6F9);
+} 
