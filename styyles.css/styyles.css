@@ -8,6 +8,7 @@ nav a {
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: steelblue;
 }
@@ -54,3 +55,35 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Class Selector */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem; 
+    background-color: #a2d2ff;
+    color: #03045e;
+}
+
+aside {
+    width: 30em;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 45px;
+    left: 130px;
+}
+
+main img {
+    float: right;
+    opacity: 0.9;
+}
+
