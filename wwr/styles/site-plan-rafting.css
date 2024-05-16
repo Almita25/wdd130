@@ -22,13 +22,13 @@ body {
 }
 
 body {
-    font-family: var(sans serif);
+    font-family: var(reddit sans);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(lora);
+    font-family: var(Lora);
     color: (#006D77);
 }
 
