@@ -29,9 +29,45 @@ body {
 .hero img {
     position: absolute;
     display: block;
-    width: 50%;
+    width: 20%;
     height: auto;
 }
+
+.first img {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+.second img {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+.third img {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+.forth img {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+.fifth img {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
 
 h1 {
     font-family: var(Lora);
