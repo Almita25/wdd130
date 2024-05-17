@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
-body {
-    font-family: var(reddit sans);
-    max-width: 960px;
-    padding: 20px;
-}
 
 :root {
     --primary-color: #EDF6F9;

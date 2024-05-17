@@ -34,6 +34,8 @@ body {
 }
 
 h1 {
+    font-family: var(Lora);
+    color: (#006D77);
     position: absolute;
 }
 
@@ -46,6 +48,9 @@ img {
 }
 
 
-    
+a {
+    text-decoration: none;
+}
+
 
     
