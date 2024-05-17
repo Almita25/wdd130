@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --primary-color: #EDF6F9;
+    --secondary-color: #83C5BE;
+    --accent1-color: #E29578;
+    --accent2-colot: #006D77;
+
+    --heading-font: "Lora", sans-serif;
+    --paragraph-font: "Reddit Sans", sans-serif;
+
+    --nav-background-color: #EDF6F9;
+    --nav-link-color: #83C5BE;
+    --nav-hover-link-color: #E29578;
+    --nav-hover-link-color: #83C5BE;
+}
+
+header {
+    padding: 20px;
+    background-color: var(#EDF6F9);
+}
+
+body {
+    font-family: var(reddit sans);
+    max-width: 960px;
+    padding: 20px;
+}
+
+.hero img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+img {
+    position: float;
+}
+
+
+    
+
+    
