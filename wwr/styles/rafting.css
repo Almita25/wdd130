@@ -65,16 +65,46 @@ article {
 }
 
 img {
-    width: 150px;
+    width: 50px;
     height: auto;
     padding: 2px;
 }
 
 aside img {
-    width: 150px;
+    width: 50px;
     height: auto;
 }
 main img {
-    width: 150px;
+    width: 50px;
     height: auto;
 }
+first img {
+    width: 50px;
+    height: auto;
+    padding: 2px;
+}
+
+second img {
+    width: 50px;
+    height: auto;
+    padding: 2px;
+}
+    
+third img {
+    width: 50px;
+    height: auto;
+    padding: 2px;
+}
+    
+forth img {
+    width: 50px;
+    height: auto;
+    padding: 2px;
+}
+
+fifth img {
+    width: 50px;
+    height: auto;
+    padding: 2px;
+}
+    
