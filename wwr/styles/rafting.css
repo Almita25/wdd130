@@ -53,7 +53,7 @@ body {
 .hero img {
     position: absolute;
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
