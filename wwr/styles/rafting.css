@@ -63,3 +63,18 @@ article {
     opacity: 10%;
     padding: 20px;
 }
+
+img {
+    width: 150px;
+    height: auto;
+    padding: 2px;
+}
+
+aside img {
+    width: 150px;
+    height: auto;
+}
+main img {
+    width: 150px;
+    height: auto;
+}
