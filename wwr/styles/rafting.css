@@ -1,7 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: reddit sans, lora, sans serif;
+    color: #006D77;
+}  
 
 :root {
-     --primary-color: #EDF6F9;
+    --primary-color: #EDF6F9;
     --secondary-color: #83C5BE;
     --accent1-color: #E29578;
     --accent2-colot: #006D77;
@@ -15,78 +27,39 @@
     --nav-hover-link-color: #83C5BE;
 }
 
-header {
-    padding: 20px;
-    background-color: var(#EDF6F9);
-
-}
-
-body {
-    font-family: var(reddit sans);
-    max-width: 960px;
-    padding: 20px;
-}
-
-.hero img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.first img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.second img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.third img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.forth img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.fifth img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-
-h1 {
+h1, h2 {
     font-family: var(Lora);
     color: (#006D77);
     position: absolute;
 }
 
+header {
+    padding: 20px;
+    background-color: var(#EDF6F9);
+    color: (#006D77);
+}
+
+body {
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    color: (#006D77);
+
+}
+
+.hero img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 article {
     position: absolute;
-    font-family: var(reddit sans);
-    max-width: 960px;
-}
-
-img {
-    position: float;
-}
-
-
-a {
-    text-decoration: none;
+    background-color: #EDF6F9;
+    opacity: 10%;
+    padding: 20px;
 }
