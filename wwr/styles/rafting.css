@@ -7,7 +7,7 @@
 }
 
 .column {
-    float: left;
+    float: center;
     width: 33.33%;
     padding: 5px;
     display: block;
@@ -67,7 +67,7 @@ body {
 .hero img {
     position: absolute;
     display: block;
-    width: 50%;
+    width: 30%;
     height: auto;
 }
 
