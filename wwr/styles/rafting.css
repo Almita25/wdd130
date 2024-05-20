@@ -64,3 +64,10 @@ article {
     opacity: 10%;
     padding: 20px;
 }
+
+.happy img {
+    position: absolute;
+    display: block;
+    width: 30%;
+    height: auto;
+}
