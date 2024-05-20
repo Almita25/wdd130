@@ -4,22 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-.column {
-    position: absolute;
-    display: block;
-    width: 30%;
-    height: auto;
-}
-
-
-.row:after {
-    position: absolute;
-    display: block;
-    width: 30%;
-    height: auto;
-}
+} 
  
 
 html {
