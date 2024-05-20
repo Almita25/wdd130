@@ -75,38 +75,3 @@ article {
     opacity: 10%;
     padding: 20px;
 }
-
-img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.second img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.third img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.forth img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
-
-.fifth img {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-}
