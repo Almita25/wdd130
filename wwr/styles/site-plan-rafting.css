@@ -23,13 +23,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(Lora);
+    font-family: var(--paragraph-font);
     color: (#006D77);
 }
 
 header {
     padding: 20px;
-    background-color: var(#EDF6F9);
+    background-color: var(--nav-background-color);
 }
 
 p {
@@ -37,23 +37,23 @@ p {
 }
 
 nav {
-    background-color: var(#EDF6F9);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(#E29578);
+    color: var(--nav-hover-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(#E29578);
+    color: var(--nav-hover-link-color);
 } 
 
 nav a:hover {
-    color: var(#E29578);
-    background-color: var(#EDF6F9);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
 } 
