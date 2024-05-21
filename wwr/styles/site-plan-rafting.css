@@ -5,7 +5,7 @@
     --primary-color: #EDF6F9;
     --secondary-color: #83C5BE;
     --accent1-color: #E29578;
-    --accent2-colot: #006D77;
+    --accent2-color: #006D77;
 
     --heading-font: "Lora", sans-serif;
     --paragraph-font: "Reddit Sans", sans-serif;
@@ -17,14 +17,14 @@
 }
 
 body {
-    font-family: var(reddit sans);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
-    color: (#006D77);
+    color: (var(--accent2-color));
 }
 
 header {
