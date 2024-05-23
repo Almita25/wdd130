@@ -53,7 +53,6 @@ body {
     min-height: 100vh;
     padding: 20px;
     color: var(--nav-hover-link-color);
-    text-decoration: none;
 
 }
 
@@ -61,7 +60,6 @@ body {
     display: block;
     width: 30%;
     height: auto;
-    float: right;
     
 }
 
@@ -69,12 +67,10 @@ article {
     background-color: #EDF6F9;
     opacity: 100%;
     padding: 20px;
-    text-decoration: none;
 }
 
 .happy img {
     display: block;
     width: 20%;
     height: auto;
-    float:none;
 }
