@@ -1,5 +1,5 @@
 nav {
-    background-color:#a2d2ff;
+    background-color:blue;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -16,7 +16,7 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: #a2d2ff;
     border: gray;
     align-items: center;
 
@@ -123,6 +123,7 @@ footer {
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
+
 }
 
 h2 {
