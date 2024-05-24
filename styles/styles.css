@@ -94,12 +94,6 @@ main img {
     opacity: 0.9;
 }
 
-.horizontal-line {
-     width: 1px;
-     height: 100px;
-     background-color: black;
-}
-
 .grid {
     display: grid;
     align-items: center;
