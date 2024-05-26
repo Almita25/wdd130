@@ -17,7 +17,6 @@ nav a {
 
 h1 {
     color: #a2d2ff;
-    border: gray;
     align-items: center;
 
 }
@@ -41,7 +40,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba (0);
+    border: 1px solid gray;
     padding: 1rem;
     background-color: #eee;
     color: black;
@@ -116,6 +115,7 @@ footer {
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
+    align-items: center;
 
 }
 
