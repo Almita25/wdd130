@@ -8,7 +8,7 @@
  
 .logo img{
     display: block;
-    width: 20%;
+    width: 10%;
     height: auto;
 } 
 
@@ -39,6 +39,30 @@ h1, h2 {
     text-decoration: none;
 }
 
+.navbar ul {
+    list-style-type: none;
+    background-color: #E29578;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #de7b57;
+}
+
+.navbar li{
+    float: right;
+}
+
 header {
     padding: 20px;
     background-color: var(--nav-background-color);
@@ -58,9 +82,8 @@ body {
 
 .hero img {
     display: block;
-    width: 30%;
+    width: 20%;
     height: auto;
-    
 }
 
 article {
