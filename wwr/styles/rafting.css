@@ -8,7 +8,7 @@
  
 .logo img{
     display: block;
-    width: 10%;
+    width: 8%;
     height: auto;
 } 
 
@@ -16,6 +16,8 @@ html {
     font-size: 16px;
     font-family: reddit sans, lora, sans serif;
     color: #006D77;
+    padding: 10px;
+    justify-content: flex-start;
 }  
 
 :root {
@@ -37,6 +39,7 @@ h1, h2 {
     font-family: var(--paragraph-font);
     color: var(--accent2-color);
     text-decoration: none;
+    text-align: center;
 }
 
 .navbar ul {
@@ -77,11 +80,13 @@ body {
     min-height: 100vh;
     padding: 20px;
     color: var(--nav-hover-link-color);
+    justify-content:flex-start;
 
 }
 
 .hero img {
-    display: block;
+    display: flex;
+    align-items:center;
     width: 20%;
     height: auto;
 }
@@ -92,8 +97,28 @@ article {
     padding: 20px;
 }
 
-.happy img {
-    display: block;
+.happy img{
+    display: flex;
     width: 20%;
     height: auto;
+}
+
+.sociallinks {
+    display: flex;
+}
+
+.happy {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
