@@ -61,6 +61,9 @@ header {
     background-color: var(--nav-background-color);
     color: var(--nav-hover-link-colors);
     text-decoration: none;
+    display: grid;
+    grid-column: span 8;
+    grid-row: span 8;
 }
 
 body {
@@ -76,7 +79,7 @@ body {
 
 .hero img {
     display: flex;
-    align-items:center;
+    align-items: flex-start;
     width: 20%;
     height: auto;
 }
@@ -104,7 +107,12 @@ article {
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
+    margin-right: 15px;
+}
+
+p {
+    justify-content: center;
 }
 
 .hero {
@@ -112,10 +120,16 @@ article {
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items:flex-start;
 }
 
 footer {
     text-align: center;
 
+}
+
+.fun {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
 }
