@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+ 
+.logo img{
+    display: block;
+    width: 8%;
+    height: auto;
+} 
+
+html {
+    font-size: 16px;
+    font-family: reddit sans, lora, sans serif;
+    color: #006D77;
+    padding: 10px;
+    justify-content: flex-start;
+}  
+
+:root {
+    --primary-color: #EDF6F9;
+    --secondary-color: #83C5BE;
+    --accent1-color: #E29578;
+    --accent2-color: #006D77;
+
+    --heading-font: "Lora", sans-serif;
+    --paragraph-font: "Reddit Sans", sans-serif;
+
+    --nav-background-color: #EDF6F9;
+    --nav-link-color: #83C5BE;
+    --nav-hover-link-colors: #E29578;
+    --nav-hover-link-color: #83C5BE;
+}
+
+h1, h2 {
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: var(--secondary-color);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar a:hover {
+    background-color: #006D77;
+}
+
+
+header {
+    padding: 20px;
+    background-color: var(--nav-background-color);
+    color: var(--nav-hover-link-colors);
+    text-decoration: none;
+    display: grid;
+    grid-column: span 8;
+    grid-row: span 8;
+}
+
+body {
+    font-family: "Reddit Sans", sans-serif;
+    font-style: normal;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    color: var(--nav-hover-link-color);
+    justify-content:flex-start;
+
+}
+
+article {
+    background-color: #EDF6F9;
+    opacity: 100%;
+    padding: 20px;
+}
+
+
+footer {
+    text-align: center;
+
+}
+
+.map {
+    align-items:center;
+    justify-content: center;
+    display: grid;
+}
+
+p, h3{
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input [type=radio], input [type=checkbox] {
+    transform: scale(2);
+    margin-right: 2em;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #006D77;
+    font-size: 1.2rem;
+}
+
+input [type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.regular {
+    padding: 5px;
+    margin:5px;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.levelone img {
+    justify-content: center;
+    align-items: center;
+}
+
+.levtwo img {
+    justify-content: center;
+    align-items: center;
+}
+
+.levelone {
+    text-align: flex-start;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+.levtwo {
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+}
+
+.levthree {
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+}
+
+h4 {
+    text-align: center;
+    justify-content: center;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
